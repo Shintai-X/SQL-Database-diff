@@ -4,7 +4,18 @@ It allows detecting and correcting discrepancies between 2 SQL Databases and gen
 The goal is to keep both databases synchronized and avoid any divergence.
 
 ---
+## How to run the script
 
+1. Have python installed on the machine.  
+2. Create a folder and put the script on it.  
+3. Download pyodbc package :  
+   ```bash
+   pip install pyodbc
+   ```
+5. Run the script:  
+   ```bash
+   python main.py
+   ``` 
 ## Script Workflow
 
 ### 1. Initial Cleanup
